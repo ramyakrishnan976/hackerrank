@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    # In Python 2, we use raw_input() instead of input()
+    n = int(raw_input())
+    
+    # Create the tuple
+    # map(int, ...) works similarly, but we use raw_input()
+    t = tuple(map(int, raw_input().split()))
+    
+    # Print the hash (parentheses are optional in Python 2)
+    print hash(t)
